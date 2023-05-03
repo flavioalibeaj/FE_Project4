@@ -1,12 +1,28 @@
-<h2>Login</h2>
-<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-  <div>
-    <label>Email:</label>
-    <input type="email" formControlName="email">
+<div class="container">
+  <div class="logo">
+    <img src="C:\Users\Perdorues\Desktop\logo.png" alt="Movienist">
   </div>
-  <div>
-    <label>Password:</label>
-    <input type="password" formControlName="password">
-  </div>
-  <button type="submit">Login</button>
-</form>
+  <form class="form-container">
+    <h2 class="form-header">Sign In</h2>
+    <div class="form-group">
+      <label class="form-label" for="email">Email or phone number</label>
+      <input type="text" class="form-input" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label class="form-label" for="password">Password</label>
+      <input type="password" class="form-input" id="password" name="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign In</button>
+    <div class="remember-me">
+      <input type="checkbox" id="remember_me" name="remember_me">
+      <label for="remember_me">Remember me</label>
+    </div>
+    <div class="need-help">
+      <a href="#">Need help?</a>
+    </div>
+    <div class="new-to-service">
+      <span>New to our service?</span>
+      <a href="#">Sign up now.</a>
+    </div>
+  </form>
+</div>

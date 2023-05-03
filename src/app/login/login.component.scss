@@ -1,0 +1,125 @@
+$primary-color: #6C63FF;
+$secondary-color: #1A1A1A;
+$tertiary-color: #242424;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $secondary-color;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  background-color: $tertiary-color;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+}
+
+.form-header {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-label {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  background-color: $secondary-color;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.btn {
+  background-color: $primary-color;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.btn:hover, .btn:focus {
+  background-color: darken($primary-color, 10%);
+}
+
+.remember-me {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.remember-me input {
+  margin-right: 0.5rem;
+}
+
+.need-help {
+  margin-top: 1rem;
+}
+
+.need-help a {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.need-help a:hover, .need-help a:focus {
+  text-decoration: underline;
+}
+
+.new-to-service {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+.new-to-service span {
+  color: #b3b3b3;
+  margin-right: 0.5rem;
+}
+
+.new-to-service a {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.new-to-service a:hover, .new-to-service a:focus {
+  text-decoration: underline;
+}
