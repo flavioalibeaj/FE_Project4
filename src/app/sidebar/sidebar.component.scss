@@ -1,0 +1,21 @@
+svg{
+  height: 25px;
+}
+
+a{
+  fill: #fff;
+  transition: fill 0.3s ease;
+}
+
+a:hover{
+  fill: #ffc107;
+}
+
+div{
+  height: 100vh;
+}
+
+.nav-link{
+  display: flex;
+  justify-content: center;
+}

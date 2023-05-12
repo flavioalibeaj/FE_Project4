@@ -2,3 +2,23 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(#0A2647, #010204, 180deg) !important;
+}
