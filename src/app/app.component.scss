@@ -1,11 +1,14 @@
 .main{
   display: flex;
   flex-direction: row;
-  background: linear-gradient(#0A2647, #010204, 180deg) !important;
 }
 
 #one{
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+router-outlet{
+  // overflow-y: auto;
 }

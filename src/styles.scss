@@ -20,5 +20,8 @@ html, body{
 
 body{
   font-family: 'Josefin Sans', sans-serif;
-  background: linear-gradient(#0A2647, #010204, 180deg) !important;
+  background: linear-gradient(#0A2647, #010204);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-size: cover;
 }

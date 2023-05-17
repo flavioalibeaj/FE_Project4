@@ -1,17 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DiscoverMoviesComponent } from './discover-movies.component';
 
 import { DiscoverMoviesRoutingModule } from './discover-movies-routing.module';
-import { NewMoviesComponent } from './new-movies/new-movies.component';
-import { ComedyComponent } from './comedy/comedy.component';
-import { ThrillerComponent } from './thriller/thriller.component';
+import { MovieCardComponent } from './movie-card/movie-card.component';
 
 
 @NgModule({
   declarations: [
-    NewMoviesComponent,
-    ComedyComponent,
-    ThrillerComponent,
+    MovieCardComponent,
+    DiscoverMoviesComponent
+
   ],
   imports: [
     CommonModule,
